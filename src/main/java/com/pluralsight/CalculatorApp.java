@@ -1,4 +1,17 @@
 package com.pluralsight;
 
+
+import java.util.Scanner;
+
 public class CalculatorApp {
+    public static void main(String[] args) {
+        Scanner myScanner = new Scanner(System.in);
+
+        System.out.println("Enter the first number: ");
+        int firstNumber = myScanner.nextInt();
+
+        System.out.println(firstNumber);
+
+
+    }
 }
